@@ -1,6 +1,6 @@
 # High-performance backend scripting for .NET
 
-The following section presents an approach that allows C# scripts to be executed efficiently in the backend.
+The following solution presents an approach that allows C# scripts to be executed efficiently in the backend.
 This decouples the implementation of the business logic from the backend code.
 
 The following criteria were taken into account when implementing the scripting API:
@@ -331,7 +331,7 @@ The following .NET and C# features were helpful in implementing this architectur
 - Shared memory access (`dynamic`).
 - An extensible metadata model that can be evaluated using reflection.
 - Type extensions, such as operator overloading (DSL extensions).
-- Runtime code generation and compilation with [Roslyn](https://github.com/dotnet/roslyn.
+- Runtime code generation and compilation with [Roslyn](https://github.com/dotnet/roslyn).
 - Asynchronous execution with `async`/`await`.
 - True native threads.
 - Runtime-managed thread pooling.
