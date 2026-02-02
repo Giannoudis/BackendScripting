@@ -1,0 +1,26 @@
+[
+    {
+        "name": "PriceVolatility",
+        "script": "return (PriceRange) / OpenPrice"
+    },
+    {
+        "name": "BreakawayCheck",
+        "script": "return (HighPrice <= LowPrice * 1.2m) ? 1 : null"
+    },
+    {
+        "name": "IntradayReturn",
+        "script": "if (OpenPrice == 0) return 0; return (ClosePrice - OpenPrice) / OpenPrice"
+    },
+    {
+        "name": "TypicalPrice",
+        "script": "return (HighPrice + LowPrice + ClosePrice) / 3"
+    },
+    {
+        "name": "RawMoneyFlow",
+        "script": "return ((HighPrice + LowPrice + ClosePrice) / 3) * Volume"
+    },
+    {
+        "name": "UpperShadowPercentage",
+        "script": "var maxBody = Math.Max(OpenPrice, ClosePrice); return maxBody == 0 ? null : (HighPrice - maxBody) / maxBody"
+    }
+]

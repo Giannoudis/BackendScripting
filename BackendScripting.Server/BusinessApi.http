@@ -1,0 +1,6 @@
+@BusinessApi_HostAddress = http://localhost:5197
+
+GET {{Products.Api_HostAddress}}/products/
+Accept: application/json
+
+###

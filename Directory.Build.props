@@ -1,0 +1,18 @@
+<Project>
+
+	<PropertyGroup>
+		<TargetFramework>net10.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Version>1.0.0</Version>
+		<FileVersion>1.0.0</FileVersion>
+		<InformationalVersion></InformationalVersion>
+		<Authors>Jani Giannoudis</Authors>
+		<Company>Software Consulting Giannoudis</Company>
+		<Copyright>© 2026 Software Consulting Giannoudis</Copyright>
+		<Product>High-performance Scripting API for Backends</Product>
+		<RepositoryUrl>https://github.com/Giannoudis/BackendScripting</RepositoryUrl>
+		<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+	</PropertyGroup>
+
+</Project>

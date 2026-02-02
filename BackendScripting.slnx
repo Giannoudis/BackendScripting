@@ -1,0 +1,16 @@
+<Solution>
+  <Folder Name="/Database/">
+    <File Path="Database/ModelCreate.sql" />
+    <File Path="Database/ModelDrop.sql" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+    <File Path="Directory.Build.props" />
+    <File Path="README.md" />
+    <File Path="StockQuoteScripts.json" />
+  </Folder>
+  <Project Path="BackendScript.Persistence/BackendScript.Persistence.csproj" Id="179823ca-5ad7-4bc9-bd46-5d7a333d127c" />
+  <Project Path="BackendScripting.Model/BackendScripting.Model.csproj" Id="2fc4597f-88bc-4438-9518-818c3c1515df" />
+  <Project Path="BackendScripting.Scripting/BackendScripting.Scripting.csproj" Id="1e5f1a15-9521-4d06-8fc9-c7d4e30673d6" />
+  <Project Path="BackendScripting.Server/BackendScripting.Server.csproj" />
+</Solution>

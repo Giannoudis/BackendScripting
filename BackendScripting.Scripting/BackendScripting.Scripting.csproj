@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <PackageReference Include="Serilog" Version="4.3.0" />
+    <PackageReference Include="Microsoft.CodeAnalysis.Compilers" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BackendScripting.Model\BackendScripting.Model.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+	  <EmbeddedResource Include="StockQuoteFunction.cs">
+		  <LogicalName>StockQuoteFunction.cs</LogicalName>
+	  </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
